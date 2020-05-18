@@ -1,0 +1,19 @@
+{
+  "name": "e2e-cypress",
+  "version": "1.0.0",
+  "description": "E2E Cypress Zup Innovation",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "e2e"
+  ],
+  "author": "Deyvis Ferreira",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^4.5.0"
+  }
+}
