@@ -37,7 +37,7 @@ beforeEach(() => cy.visit("https://bit.ly/2XSuwCW"));
 		cy.get("header h1").should("contain", "TICKETBOX");
 	});
 
-	it.only("Validar se o alerta é exibido para preenchimento de e-mail inválido", () => {
+	it("Validar se o alerta é exibido para preenchimento de e-mail inválido", () => {
 		cy.get("#email")
 			.as("email")
 			.type("deyvis-gmail.com");
